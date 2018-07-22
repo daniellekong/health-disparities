@@ -9,6 +9,11 @@
 	}
 }
 
+.row{
+	margin-right: 0;
+	margin-left: 0;
+}
+
 #top-container{
 	background: #1D3670;
 	color: #FFF;
