@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700');
+@import url('https://fonts.googleapis.com/css?family=Lora:700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@media (max-width: 767px){
+	h5{
+		text-align: center;
+	}
+}
+
+#top-container{
+	background: #1D3670;
+	color: #FFF;
+	padding: 1%;
+}
+
+h1{
+	font-family: 'Lora', 'Playfair Display', serif;
+	text-align: center;
+}
+
+h5{
+	font-family: 'Lora', serif;
+	padding: 1%;
+}
+
+p{
+	font-family: 'Open Sans', 'Raleway', 'Avenir', sans-serif;
+}
+
+.main-container{
+	background: #F5F5F5;
+	width: 100%;
+}
+
+#canvas{
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 300px;
+	max-height: 500px;
+	width: auto;
+	padding: 1%;
+}
+
+.tan-div{
+	background-color: #AB987A;
+	display: inline-block;
+	padding: 2% 1% 2% 1%;
+	color: #1D3670;
+	width: 100%;
+}
+
+.coral-div{
+	background-color: #FF533D;
+	display: inline-block;
+	padding: 2% 1% 2% 1%;
+	width: 100%;
+}
+
+.left{
+	float: left;
+	text-align: right;
+}
+
+.right{
+	float: right;
+	text-align: left;
+}
+
+#bottom-container{
+	padding: 1%;
+	font-size: 90%;
+	background: #E2E2E2;
+	width: 100%;
+}
+
+#bottom-container p{
+	margin-bottom: 0.5%;
+}
+
+a{
+	color: inherit;
+}

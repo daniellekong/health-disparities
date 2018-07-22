@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Socioeconomic Disparities in Health Outcomes</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+
+	<script src="js/diabetes-income-data.js"></script> <!-- data -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script> <!-- chart.js -->
+</head>
+
+<body>
+	<div class="main-container">
+		<div id="top-container">
+			<h1>Socioeconomic Disparities in Health Outcomes</h1>
+			<p>Healthcare access and health outcomes are greatly fractured along socioeconomic and racial lines in the United States. The numerous articles produced by <a href="https://www.theatlantic.com/magazine/archive/2018/07/being-black-in-america-can-be-hazardous-to-your-health/561740/" alt="The Atlantic Article" target="_blank">popular publishers</a> and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2837459/" alt="American Journal of Public Health Article" target="_blank">public health researchers</a> underscore the severity of this issue and the lack of solutions in place to address it.</p>
+			<p>The simple data visualization-analysis presented here explores this health disparity issue, using diabetes prevalence as an indicator of health outcome and average income as an indicator of socioeconomic status. The data used is at the state-level, and thus nuances of geography and other variables are not captured. The aim of this visualization is to convey a relationship between health outcome and socioeconomic status.</p>
+		</div>
+		<div class="row">
+			<div class="coral-div col-md-5 left">
+				<h5><a href="https://www.cdc.gov/media/releases/2017/p0718-diabetes-report.html" alt="CDC Diabetes Report" target="_blank">30.3 million Americans have diabetes</a></h5>
+			</div>
+			<div class="tan-div col-md-7 right"></div>
+		</div>
+
+		<canvas id="canvas"></canvas>
+		<script src="js/data-chart.js"></script>
+
+		<div class="row">
+			<div class="tan-div col-md-8 left">
+				<h5><a href="https://doi.org/10.2337/dci18-0007" alt="Economic Cost of Diabetes 2017 Report" target="_blank">Individuals with diabetes spend approximately $9,600 per year on medical costs associated with diabetes</a></h5>
+			</div>
+			<div class="coral-div col-md-4 right">
+			</div>
+		</div>
+		<div class="row">
+			<div class="coral-div col-md-8 left">
+			</div>
+			<div class="tan-div col-md-4 right">
+				<h5><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848262/" alt="Socioeconomic Status and Risk of Diabetes-Related Mortality in the U.S. Article" target="_blank">Diabetes is in the top 10 leading causes of death in the United States.</a></h5>
+			</div>
+		</div>
+
+		<div id="bottom-container">
+			<p>Sources:</p>
+			<ul>
+				<li>Mean income in US Dollars by state (including D.C. and Puerto Rico) from the 2011-2015 American Community Survey 5-Year Estimates</li>
+				<li>Percent of adults diagnosed with diabetes by state (including D.C. and Puerto Rico) in 2015 from the Centers for Disease Control and Prevention</li>
+				<li><a href="https://www.theatlantic.com/magazine/archive/2018/07/being-black-in-america-can-be-hazardous-to-your-health/561740/" alt="The Atlantic Article" target="_blank">The Atlantic</a></li>
+				<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2837459/" alt="American Journal of Public Health Article" target="_blank">American Journal of Public Health</a></li>
+				<li><a href="https://www.cdc.gov/media/releases/2017/p0718-diabetes-report.html" alt="CDC Diabetes Report" target="_blank">CDC Diabetes Report</a></li>
+				<li><a href="https://doi.org/10.2337/dci18-0007" alt="Economic Cost of Diabetes 2017 Report" target="_blank">American Diabetes Association: Economic Cost of Diabetes Report</a></li>
+				<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848262/" alt="Socioeconomic Status and Risk of Diabetes-Related Mortality in the U.S. Article" target="_blank">Public Health Reports</a></li>
+			</ul>
+			<p>Project by <a href="https://daniellekong.github.io/" alt="Danielle Kong">Danielle Kong</a>, 2018</p>
+		</div>
+	</div>
+</body>
+
+</html>
