@@ -53,6 +53,7 @@ var option = {
             'id': 'income-axis', 
             ticks: {
                 min: 20000,
+                max: 110000,
                 callback: function(value, index, values) {
                         return '$' + value;
                 }
